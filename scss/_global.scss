@@ -6,21 +6,6 @@ html {
   height: 100%;
 }
 
-
-  h2.section-heading {
-      font-size: 2.5rem;
-      margin-top: 0;
-      margin-bottom: 1rem;
-  }
-  h3.section-subheading {
-      font-size: 1rem;
-      font-weight: 400;
-      font-style: italic;
-      font-family: $subheadings-font-family;
-      margin-bottom: 4rem;
-  }
-
-
 //- Custom horizontal rules
 
 hr.divider {
@@ -54,4 +39,16 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
+  h2.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+h3.section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: $subheadings-font-family;
+    margin-bottom: 4rem;
+}
 }
