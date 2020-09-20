@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10899,8 +10900,8 @@ img.social {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../assets/img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../assets/img/rezkin.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/rezkin.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10929,6 +10930,79 @@ header.masthead h1 {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
+  }
+}
+
+#wineglass {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.4)), to(rgba(92, 77, 66, 0.3))), url("../assets/img/бокал 1.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.4) 0%, rgba(92, 77, 66, 0.3) 100%), url("../assets/img/бокал 1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#wineglass h1 {
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+#wineglass #wineglass-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  #wineglass {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  #wineglass p {
+    font-size: 1.15rem;
+  }
+  #wineglass h1 {
+    font-size: 2rem;
+  }
+  #wineglass #wineglass-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  #wineglass hr.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #wineglass h1 {
+    font-size: 3.5rem;
+  }
+  #wineglass #wineglass-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  #wineglass hr.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
