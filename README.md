@@ -1,16 +1,15 @@
 # rezkin_bootstrap
 
-## Лэндинг для мастерской Rezkiny
+## Landing page for Rezkiny workshop
 
 ![ScreenShot](/assets/img/screenshot.png)
 
-* Лэндинг сделанный с применением библиотеки **Bootstrap**.
-* Указана информация о мастерской:
-  - Рабочее поле станков;
-  - С какими материалами работают;
-  - Прайс на работы;
-  - В контактах есть карта "Яндекс" с адресом мастерской.
-* В портфолио размещены примеры работ мастерской.
-* Сделана форма обратной связи, где пользователь может задать вопрос и оставить свои контактные данные для связи.
+* Landing page made using the **Bootstrap** library.
+* Workshop information provided:
+  - Working field of machines;
+  - Price for work;
+  - In contacts there is an interactive map "Yandex" with the address of the workshop.
+* The portfolio contains examples of the work of the workshop.
+* Feedback form where the user can ask a question and leave their contact details.
 
-[Ссылка на готовый проект, размещенный через хостинг **GitHub Pages**.](https://dmitriik1.github.io/rezkin_bootstrap/)
+[Link to the finished project, hosted on **GitHub Pages**.](https://dmitriik1.github.io/rezkin_bootstrap/)
